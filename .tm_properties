@@ -1,5 +1,10 @@
-TM_RUBY  = "$HOME/.rbenv/shims/ruby"
+# Using rbenv
+TM_RUBY  = "$HOME/.rbenv/shims/ruby" 
 PATH     = "$HOME/.rbenv/bin:$PATH"
+
+# Using RVM
+# TM_RUBY = $HOME/.rvm/bin/rvm-auto-ruby
+
 
 [ attr.untitled ]
 fileType = source.ruby
